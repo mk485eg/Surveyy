@@ -1,0 +1,71 @@
+body {
+   background-image:url("img/background.jpg");
+   background-repeat: no-repeatno-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+h1{
+	color: purple;
+}
+.page {
+
+  
+    border-style: dashed;
+    background-color: White;
+    padding-top: 150px;
+    padding-right: 30px;
+    padding-bottom: 150px;
+    padding-left: 80px;
+
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 150px;
+   
+}
+.f1{
+	 text-align: center;
+	 text-decoration-color: purple;
+}
+.button {
+  border-radius: 4px;
+  background-color: purple;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
